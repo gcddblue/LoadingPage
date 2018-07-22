@@ -1,13 +1,11 @@
    body{
    background:transparent;
-   background:url(imge/BG.gif);
    background-attachmen:fised;
    background-repeat:no-repeat;
    background-size:cover;
    }
    body{
    background:none;
-   overflow:-Scroll;
    overflow-x:hidden;
    overflow-y:hidden;
    font-family:Arial;
@@ -40,7 +38,7 @@
    transform:rotate(360deg) scale(0);
    }
    }
-   @-webkit-keyframes myfirst  <!--safari and Chrome-->
+   @-webkit-keyframes myfirst
    {
    from{
    transform:rotate(0deg) scale(1);
@@ -100,7 +98,7 @@
    .login_2
    {
    height:40px;
-   padding:0px opx;
+   padding:0px 0px;
    }
    .login_psd{
    margin-top:15px;
